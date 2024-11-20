@@ -1,0 +1,6 @@
+/*:root puede ser util para declarar variables CSS globales:*/
+:root{
+    --color-primary: #ff0b0b;
+    --color-primary-dark: brown;
+    --color-gary:#cccccc;
+}
