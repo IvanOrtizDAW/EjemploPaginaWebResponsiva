@@ -1,3 +1,3 @@
 # EjemploPaginaWebResponsiva
 
-![Esquema web]([https://ibb.co/JH296fW))
+![Esquema web]([https://ibb.co/JH296fW)
