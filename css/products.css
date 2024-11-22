@@ -1,0 +1,100 @@
+.title-products{
+    font-weight: lighter;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+
+.search-input{
+    float: left;
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid var(--color-gary);
+    outline: 0;
+}
+
+.select-order{
+    float: right;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.product-box{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.product-box:hover{
+    text-decoration: none;
+}
+
+.product-box img{
+    transition: all 0.3s;
+}
+
+.product-box img:hover{
+    transform: scale(1.05);
+}
+
+.product-box h3{
+    font-size: 14px;
+    font-weight: normal;
+    margin:5px;
+    /*
+    para que siga con puntos suspensivos el texto y no ocupe espacio
+    */
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.product-box .offer{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/**
+asi no se ve y sigue ocupando el mismo espacio mientras que con disaply none
+no ocuparia espacio y se descoloca
+*/
+.product-box .hidden.offer{
+    visibility: hidden;
+}
+
+.product-box .price{
+    font-size: 18px;
+}
+
+.product-box .price del{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.pagination{
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    margin:20px;
+}
+
+.pagination li{
+    display: inline-block;
+}
+
+.pagination li a{
+    color: black;
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pagination li a.active{
+    border:solid 1px black;
+    padding: 3px;
+}
